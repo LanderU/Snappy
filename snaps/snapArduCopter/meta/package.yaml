@@ -1,0 +1,7 @@
+name: lander
+vendor: Erle Robotics <contact@erlerobot.com>
+icon: meta/erle-small.png
+version: 1.0.1
+architecture: armhf
+binaries:
+ - name: src/ArduCopter.elf

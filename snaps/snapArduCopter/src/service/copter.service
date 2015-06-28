@@ -1,0 +1,10 @@
+[Unit]
+Description=APM:Rover autopilot launch service
+After=capes.service
+
+[Service]
+#Type=oneshot
+ExecStart=/apps/lander/current/src/apm4-startup-copter.sh
+
+[Install]
+WantedBy=multi-user.target
