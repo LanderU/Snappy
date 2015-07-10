@@ -9,7 +9,7 @@
 sleep 5
 
 APM_BIN_DIR="/apps/erle-snap-copter/current/src"
-Flag="-l /home/ubuntu/APM/logs -t /home/ubuntu/terrain/"
+Flag="-l /home/ubuntu/APM/logs -t /home/ubuntu/APM/terrain/"
 
 date
 while :; do
