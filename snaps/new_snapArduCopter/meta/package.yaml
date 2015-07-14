@@ -1,7 +1,7 @@
-name: erle-snap-copter
-vendor: ErleRobotics <contact@erlerobot.com>
-icon: meta/erle_small.png
-version: 1.0
+name: erle-copter
+vendor: Erle Robotics <contact@erlerobot.com>
+icon: meta/erle-small.png
+version: 1.5
 architecture: armhf
 binaries:
-  - name: src/ArduCopter.elf
+ - name: src/ArduCopter.elf

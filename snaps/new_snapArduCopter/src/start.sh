@@ -1,5 +1,4 @@
-#! /bin/bash
-sudo cp service/copter.service
-sudo systemctl daemon-reload
+sudo cp service/copter.service /lib/systemd/system/
+systemctl daemon-reload
 sudo systemctl start copter.service
-echo "APM:Copter app running"
+echo "APM:Copter app started"

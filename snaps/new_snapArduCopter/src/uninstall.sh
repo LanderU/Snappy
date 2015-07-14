@@ -1,3 +1,2 @@
-#! /bin/bash
-sudo systemctl disable copter.servie
-echo "APM:Copter app disabled"
+sudo systemctl disable copter.service
+echo "APM:Copter disabled"

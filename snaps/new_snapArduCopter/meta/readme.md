@@ -1,3 +1,2 @@
-Arducopter snap.
-
-By: Lander Usategui <lander@erlerobot.com>
+Erle Robotics APM Copter package
+A Linux-based autopilot for multicopters.
