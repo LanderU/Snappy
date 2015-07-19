@@ -1,0 +1,10 @@
+[Unit]
+Description=APM:Copter autopilot launch service
+After=capes.service
+
+[Service]
+#Type=oneshot
+ExecStart=/apps/erle-copter/current/src/apm4-startup-hexa.sh
+
+[Install]
+WantedBy=multi-user.target

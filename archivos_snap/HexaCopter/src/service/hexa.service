@@ -1,0 +1,10 @@
+[Unit]
+Description=APM:Hexa autopilot launch service
+After=capes.service
+
+[Service]
+#Type=oneshot
+ExecStart=/apps/erle-hexa/current/src/apm4-startup-hexa.sh
+
+[Install]
+WantedBy=multi-user.target
