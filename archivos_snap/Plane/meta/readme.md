@@ -1,3 +1,3 @@
-HexaCopter snap.
+Plane snap.
 
 By: Lander <lander@erlerobot.com>
