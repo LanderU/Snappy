@@ -1,0 +1,7 @@
+name: test-pxf-v1-6
+vendor: Erle Robotics <contact@erlerobot.com>
+icon: meta/erle-small.png
+version: 1.0
+architecture: armhf
+binaries:
+ - name: src/ArduCopter-3IMU.elf
