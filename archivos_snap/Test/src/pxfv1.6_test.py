@@ -62,7 +62,7 @@ f=os.popen('sudo ./ArduCopter-3IMU.elf > test_out.txt')
 
 #Wait Arducopter to fill the txt
 print "Time"
-time.sleep(15)
+time.sleep(20)
 
 #Check for errors
 if 'Failed to boot MPU6000' in open('test_out.txt').read():
