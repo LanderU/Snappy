@@ -1,6 +1,8 @@
 Snappy
 =====================
 
+# DEPRECATED
+
 Repositorio donde se incluirá todo lo relacionado con Snappy
 
 **Dos carpetas**
